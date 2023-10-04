@@ -1,0 +1,7 @@
+@media screen and (max-width: 475px) {
+  #img {
+    position: absolute;
+    top: 1600px;
+    right: -1000px;
+  }
+}

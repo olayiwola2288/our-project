@@ -4,16 +4,9 @@ import WhatWeDo from "./WhatWeDo";
 import HowItWork from "./HowItWork";
 import Coverage from "./Coverage";
 import Card from "./Card";
+import Image from "./Image";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-// import img1 from "../assets/Viscio/Apple playstore";
-
-// import img2 from "../assets/Viscio/Google appstore";
-// import img2 from "../assets/Viscio/Phone map";
-// import img2 from "../assets/Viscio/Testifier Zinny_s outfit";
-// import img2 from "../assets/Viscio/VISCIO (1)";
-// import img2 from "../assets/Viscio/Viscio";
 
 const Body = () => {
   AOS.init({
@@ -41,14 +34,14 @@ const Body = () => {
         <div className="mt-40">
           <div className="flex flex-col lg:flex-row mx-4 lg:mx-20 justify-center">
             <div className="lg:w-1/2 ">
-              <h1 className="lg:text-6xl  text-2xl text-green-900 ms-10 font-bold">
-                Deliver Package with OUR Express
+              <h1 className="lg:text-6xl  text-4xl text-green-900 ms-10 font-bold">
+                Deliver Package with Serenity Logistics
               </h1>
               <p className="mt-10 lg:me-40 ms-10">
-                OUR express is a Reliable Logistics B2C & B2B platform that
-                ensures safe delivery of your parcel(s) in real time. A tracking
-                ID is attached on all orders, to keep sync with movement of your
-                parcel(s).
+                Serenity Logistics is a Reliable Logistics B2C & B2B platform
+                that ensures safe delivery of your parcel(s) in real time. A
+                tracking ID is attached on all orders, to keep sync with
+                movement of your parcel(s).
               </p>
               <form className="mt-10 ms-10">
                 <label
@@ -95,30 +88,31 @@ const Body = () => {
               <img
                 src={img2}
                 alt=""
-                className="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+                className="h-auto lg:max-w-lg transition-all duration-300 rounded-lg cursor-pointer "
               />
             </div>
           </div>
           <div>
-            <h1 className="text-green-900 text-4xl text-center mb-10 ms-10">
-              What You Can Do With Viscio?
+            <h1 className="text-green-900 text-4xl text-center my-14 mx-10">
+              What You Can Do With Serenity Logistics?
             </h1>
             <WhatWeDo />
-            <h1 className="text-green-900 text-4xl text-center mt-10 scroll-smooth hover:scroll-auto">
+            <h1 className="text-green-900 text-4xl text-center my-10  scroll-smooth hover:scroll-auto">
               How It Works
             </h1>
             <HowItWork />
-            <h1 className="text-green-900 text-4xl text-center mt-10">
-              Our Coverage Cities
+            <Image />
+            <h1 className="text-green-900 text-4xl text-center lg:mt-40 mt-10">
+              Serenity Logistics Coverage Cities
             </h1>
             <Coverage />
             <div data-aos="zoom-in" data-aos-duration="1000">
-              <h1 className="text-green-900 text-4xl text-center mt-10">
-                What Our Customers Say
+              <h1 className="text-green-900 text-4xl text-center mt-10 mx-5">
+                What Serenity Logistics Customers Say
               </h1>
-              <p className="text-center mt-5">
+              <p className="text-center mt-5 mx-5">
                 Take a dive into the reviews of what our user have to say about
-                their experience at with Viscio Express
+                their experience at with Serenity Logistics
               </p>
             </div>
             <Card />

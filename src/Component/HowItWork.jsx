@@ -1,7 +1,7 @@
 const HowItWork = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="lg:grid lg:grid-cols-3  gap-4 lg:mx-40 ms-10">
+    <div className="flex flex-col justify-center items-center mb-20">
+      <div className="lg:grid lg:grid-cols-3  gap-4 lg:mx-40 mx-5">
         <div className="text-center mt-5">
           <p>
             We simply connect you to pre-screened and active logistics agents

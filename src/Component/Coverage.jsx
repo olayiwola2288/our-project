@@ -2,14 +2,14 @@ const Coverage = () => {
   return (
     <div>
       <div>
-        <p className="text-center lg:mx-[210px] my-10 ms-20">
+        <p className="text-center lg:mx-[210px] my-10 mx-5">
           Our commitment to serve you constantly propels us to enlarge our
           coverage locations to ensure efficient service delivery and proximity
           to our priority channels. Our model affords us ease of spreading our
           reach efficiently as a super logistics aggregator.
         </p>
       </div>
-      <marquee direction="left" className=" lg:mx-20 ms-20">
+      <marquee direction="left" className=" lg:mx-20 mx-5">
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
           deleniti deserunt distinctio labore iste eos provident harum? Incidunt

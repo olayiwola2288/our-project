@@ -59,6 +59,8 @@ const Card = () => {
                 src={review.img}
                 alt=""
                 className="w-20 h-20 rounded-full mt-6"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
               />
             </div>
             <div className="px-6 py-4">

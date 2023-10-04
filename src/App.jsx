@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./Component/Navbar";
 import Body from "./Component/Body";
 import Mee from "./Component/Mee";
+import "./App.css";
 
 const App = () => {
   return (
