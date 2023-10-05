@@ -3,6 +3,7 @@ import Navbar from "./Component/Navbar";
 import Body from "./Component/Body";
 import Mee from "./Component/Mee";
 import "./App.css";
+import SignIn from "./Component/SignIn/SignIn";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="about" element={<Mee />} />
+        <Route path="signin" element={<SignIn />} />
       </Routes>
     </div>
   );
